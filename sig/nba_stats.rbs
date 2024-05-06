@@ -1,0 +1,7 @@
+module NbaStats
+  VERSION: String
+  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  def headers: -> [String]
+
+  def stats: -> Player?
+end

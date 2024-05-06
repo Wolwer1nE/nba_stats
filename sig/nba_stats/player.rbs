@@ -1,0 +1,6 @@
+module NbaStats
+  class Player
+    attr_accessor name: string
+    attr_accessor position: string
+  end
+end
